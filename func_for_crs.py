@@ -9,6 +9,7 @@ class Figure():
         self.key_press = key_press
         self.quantity_of_top = 10
 
+        
     def drawing(self, screen):
         if self.key_press == "rect":
             x, y = pg.mouse.get_pos()
